@@ -1,0 +1,159 @@
+* {
+  color: antiquewhite;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  margin: 0;
+}
+
+.main-page {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/81151211-a8d5-4f2f-98d7-b0a793665fea/CO-en-20230109-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-size: cover;
+  position: absolute;
+
+  background-color: rgb(105, 105, 105);
+  background-blend-mode: multiply;
+}
+
+.footer-main {
+  font-size: 2.1rem;
+  display: grid;
+  width: 75%;
+  margin: 20% auto 5%;
+  text-align: center;
+}
+
+.inside-main-elements {
+  margin: 6px;
+}
+
+.inside-main-elements-input {
+  margin: 6px;
+  color: black;
+  padding: 10px;
+}
+
+.footer-main input {
+  color: black;
+  padding: 10px;
+}
+
+.footer-main button,
+.inside-main-elements-button {
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  width: 140px;
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer-main button:hover {
+  background-color: rgb(255, 16, 16);
+  cursor: pointer;
+}
+
+.inside-main-elements-button:hover {
+  background-color: rgb(255, 16, 16);
+  cursor: pointer;
+}
+
+.component {
+  display: grid;
+  grid-template-areas:
+    "a c"
+    "b c";
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  margin: 0;
+  /* background-color: yellow; */
+  /* border: 2px solid red; */
+  height: 350px;
+  width: 100%;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1.3fr 1fr;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.component .one {
+  /* background-color: tomato; */
+  /* border: 2px solid blue; */
+  grid-area: a;
+  font-size: 4.1rem;
+  /* color: blue; */
+  text-align: center;
+  line-height: 8rem;
+}
+.component .two {
+  font-size: 3.1rem;
+  /* background-color: tomato; */
+  /* border: 2px solid blue; */
+  grid-area: b;
+  /* color: blue; */
+  text-align: center;
+  /* padding: 10% 0; */
+}
+.component .three {
+  font-size: 2.1rem;
+  /* background-color: tomato; */
+  /* border: 2px solid blue; */
+  grid-area: c;
+
+  /* color: blue; */
+}
+
+.video-net {
+  position: absolute;
+  margin: 45px auto auto 70px;
+}
+
+.QA div {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.QA h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.boxes-QA {
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  width: 60%;
+  margin: 0 auto 8px;
+  background-color: #303030;
+  text-align: left;
+  font-size: 3rem;
+}
+
+label {
+  margin-left: 15%;
+  margin-right: auto;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.inside-main-elements-input {
+  margin-left: 15%;
+  margin-right: auto;
+  width: 300px;
+}
+.inside-main-elements-button {
+  /* margin-left: 25%; */
+  margin-right: auto;
+  padding: 10px;
+}
